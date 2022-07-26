@@ -1,0 +1,390 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(196, 196, 196);
+}
+.draco-malfoy{
+    transform: scaleX(-1);
+}
+.Ocaso{
+    background-image: url(img/muralla-china_3840x2559_xtrafondos.com.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.anochecer{
+    background-image: url(img/China-city-night-bridge-skyscrapers-lights-river_3840x2160.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.noche{
+    background-image: url(img/peakpx.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-main {
+    background-image: url(img/licensed-image.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+.logo {
+    width: 45px;
+    display: flex;
+    float: left;
+    margin-left: 15%;
+}
+
+.menu {
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 5px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 25%;
+}
+
+.links {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a:hover {
+    color: red;
+}
+
+.rojo{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+header h1 {
+    margin-top: 250px;
+    font-size: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px solid red;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid red;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.confiar{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.confiar-titulo{
+    border-bottom: red solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.confiar-texto{
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.titulo-info {
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    background-color: rgb(255, 248, 248);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.info p {
+    margin-left: 20px;
+}
+
+.info h3 {
+    margin-left: 20px;
+    border-bottom: red 1px solid;
+}
+
+.carousel__dots {
+    background-color: rgb(196, 196, 196);
+}
+
+.imagenes {
+    padding: 1px;
+}
+
+.titulo-imagenes{
+    text-align: center;
+    margin: 20px;
+}
+
+#mainCarousel {
+    color: #170724;
+
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+        0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+
+    --carousel-button-svg-stroke-width: 2.5;
+}
+
+#mainCarousel .carousel__slide {
+    width: 70%;
+    padding: 10px;
+}
+.carousel__dot:after{
+    color: red;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 5px;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.datos{
+    width: 20%;
+}
+dd{
+    margin-left: 0px;
+    border-bottom: red 1px solid;
+}
+@media only screen and (max-width:1024px) {
+    .header-main {
+        background-image: url(img/licensed-image.jpg);
+        background-size: cover;
+        height: 850px;
+    }
+    header nav ul {
+        margin-right: 17%;
+    }
+    .logo{
+        margin-left: 5px;
+    }
+    .links {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    header h1 {
+        font-size: 70px;
+
+    }
+    .subtitulo {
+        font-size: 40px;
+        text-align: left;
+    }
+    .confiar{
+    flex-direction: column;
+    }
+    .carousel__track{
+        width: 120%;
+    }
+    footer nav ul li {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .datos{
+        width: 37%;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .logo{
+        display: none;
+    }
+    footer nav ul {
+        margin-right: 50px;
+    }
+}
+
+
+
+.menu-noche{
+    background-color: rgba(128, 128, 128, 0.6);
+    padding: 5px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: rgba(128, 128, 128, 0.8) ;
+    border-radius: 5%;
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 25%;
+}
+.titulo-formulario{
+    border-bottom: red 1px solid;
+    width: 25%;
+}
+.comentrio-formularios{
+    padding-bottom: 40px;
+}
+
+.formulario input{
+    margin-bottom: 10px;
+    border: none;
+}
+.formulario-boton{
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.formulario-boton:hover{
+    color: red;
+}
+.formulario-footer{
+    background-color: rgba(128, 128, 128, 0.6);
+    padding: 5px;
+    margin-top: 100px;
+}
+
+label{
+    text-align:start;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    text-align-last:left;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.8);
+    margin: 10px;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.ficha{
+    display: flex;
+}
+
+.servicio-titulo{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.servicios-info{
+    background-color: rgba(214, 214, 214, 0.8);
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px;
+}
+.servicios-foto{
+    margin: 10px;
+    width: 45%;
+    border-radius: 5%;
+}
+.servicios-boton{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.servicios-boton:hover{
+    color: red;
+}
+
+.dias{
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.dias-dias{
+    border: none;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.tipito{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    float:right;
+    margin-top: 15px;
+
+
+}
+
+.servicios-info p{
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.selector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgba(214, 214, 214, 0.8);
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+.selector-opciones{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.selector-selector{
+    border: 1px solid red;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.cargarmas{
+    font-size: larger;
+    text-align: center;
+    border: none;
+    background-color: rgba(214, 214, 214, 0.8);
+    margin-left: 45%;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.cargarmas:hover{
+    color: red;
+    border: 1px solid red;
+}
